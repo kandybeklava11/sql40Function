@@ -1,0 +1,103 @@
+create table people(
+    id serial primary key,
+        first_name varchar,
+        last_name varchar,
+    age int,
+    gender varchar,
+    address varchar,
+    phone_number integer,
+    email varchar,
+    occupation varchar,
+    nationality varchar,
+    education varchar,
+    languages varchar,
+    is_Married  boolean,
+    has_Children boolean,
+    height int,
+    weight int
+
+
+
+);insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Dela', 'Edon', 54, 'Female', '152 Magdeline Center', 756985, 'dedon0@trellian.com', 'GIS Technical Architect', 'Russia', 'Moscow State Institute of Radiotechnics, Electronics and Automation (Technical University)', 'Azeri', false, false, 203, 72);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Fawne', 'Lettley', 23, 'Female', '32 Northport Junction', 44893, 'flettley1@state.gov', 'Software Engineer IV', 'Malaysia', 'University College of Technology & Innovation (UCTI)', 'Kurdish', true, false, 169, 70);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Zita', 'Bertelsen', 15, 'Female', '2005 Bluejay Drive', 655629, 'zbertelsen2@baidu.com', 'Account Executive', 'Ukraine', 'Kiev National University of Construction and Architecture', 'Spanish', true, true, 203, 80);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Saw', 'Hadigate', 32, 'Non-binary', '74656 Maywood Alley', 69412, 'shadigate3@storify.com', 'Community Outreach Specialist', 'China', 'Guangzhou Normal University', 'Polish', true, false, 145, 94);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Elwyn', 'Pett', 51, 'Male', '3 Melody Plaza', 7662, 'epett4@china.com.cn', 'Paralegal', 'Spain', 'International University of Southern Europe', 'Punjabi', false, true, 213, 91);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Dick', 'Whales', 54, 'Male', '37 Fallview Court', 276818, 'dwhales5@nba.com', 'Programmer IV', 'Malaysia', 'Institute of Teachers Education, Rajang', 'Papiamento', true, true, 146, 91);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Colver', 'Everix', 25, 'Male', '34287 Manley Place', 544471, 'ceverix6@wordpress.com', 'Programmer IV', 'Indonesia', 'Universitas Pesantren Darul Ulum Jombang', 'New Zealand Sign Language', false, false, 164, 94);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Tucker', 'Brittian', 77, 'Male', '77 Knutson Lane', 319254, 'tbrittian7@theguardian.com', 'Environmental Specialist', 'Finland', 'Helsinki School of Economics and Business Administration', 'Dzongkha', false, true, 203, 61);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Malanie', 'Rushbrooke', 40, 'Female', '892 Fieldstone Parkway', 22678, 'mrushbrooke8@simplemachines.org', 'Chief Design Engineer', 'Russia', 'Ulyanovsk Higher School of Civil Aviation', 'Hindi', true, true, 170, 54);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Sacha', 'Mityashev', 86, 'Female', '909 Namekagon Hill', 46252, 'smityashev9@surveymonkey.com', 'Teacher', 'Brazil', 'Universidade Mackenzie', 'Norwegian', true, false, 163, 69);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Buddie', 'Livett', 75, 'Male', '6 Sloan Avenue', 52111, 'blivetta@walmart.com', 'Product Engineer', 'Honduras', 'Universidad Tecnológica Centroamericana', 'Hungarian', true, false, 202, 47);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Bailie', 'Stansall', 76, 'Male', '12 Schmedeman Alley', 6220, 'bstansallb@themeforest.net', 'Marketing Assistant', 'Portugal', 'Universidade de Aveiro', 'Bengali', false, false, 183, 84);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Brianna', 'Leece', 54, 'Female', '8 2nd Parkway', 16290, 'bleecec@arstechnica.com', 'Database Administrator III', 'Australia', 'Institute Of Technology, Australia', 'Albanian', true, true, 192, 75);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Regen', 'Klyn', 94, 'Male', '4293 Warbler Alley', 530447, 'rklynd@cbslocal.com', 'Senior Sales Associate', 'Paraguay', 'Universidad Americana', 'Dutch', true, true, 210, 79);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Bev', 'Dowden', 86, 'Male', '6427 Park Meadow Plaza', 58311, 'bdowdene@miibeian.gov.cn', 'Associate Professor', 'Indonesia', 'Universitas 17 Agustus 1945 Samarinda', 'Bulgarian', false, false, 147, 77);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Fraze', 'Aulds', 28, 'Bigender', '5522 Eastlawn Crossing', 80089, 'fauldsf@newyorker.com', 'Accountant I', 'Indonesia', 'Universitas 17 Agustus 1945 Jakarta', 'Papiamento', true, true, 206, 90);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Dennison', 'Caldero', 79, 'Male', '080 Springview Place', 500593, 'dcalderog@123-reg.co.uk', 'Chief Design Engineer', 'Georgia', 'University of Grigol Robakidze', 'Northern Sotho', false, false, 153, 53);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Natka', 'Dandie', 94, 'Female', '476 Anthes Junction', 13396, 'ndandieh@chron.com', 'Registered Nurse', 'Thailand', 'Siam University', 'Irish Gaelic', true, true, 215, 98);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Heinrik', 'McReedy', 39, 'Male', '577 Maple Trail', 343869, 'hmcreedyi@youtu.be', 'VP Quality Control', 'Nigeria', 'Auchi Polytechnic', 'Finnish', true, false, 188, 53);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Ella', 'McGreil', 58, 'Female', '67 Hooker Park', 71538, 'emcgreilj@github.io', 'Biostatistician II', 'Russia', 'Yaroslavl State Medical Academy', 'Croatian', false, false, 179, 66);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Angelique', 'de Najera', 15, 'Female', '38506 Continental Street', 64572, 'adenajerak@purevolume.com', 'Account Coordinator', 'Indonesia', 'Universitas HKBP Nommensen', 'Bengali', true, false, 170, 68);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Malory', 'Oleksinski', 70, 'Female', '0 Sullivan Crossing', 894861, 'moleksinskil@shop-pro.jp', 'Programmer III', 'Indonesia', 'Universitas Methodist Indonesia', 'Moldovan', true, true, 208, 74);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Ardis', 'O''Tuohy', 50, 'Female', '99650 Debs Point', 687780, 'aotuohym@berkeley.edu', 'Pharmacist', 'Madagascar', 'Université d''Antananarivo', 'Malagasy', false, false, 204, 61);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Francisca', 'Shrimplin', 81, 'Female', '704 Green Ridge Crossing',87039, 'fshrimplinn@elegantthemes.com', 'GIS Technical Architect', 'China', 'Fuzhou University', 'Arabic', false, true, 190, 89);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Larina', 'Henriquet', 97, 'Female', '50315 Autumn Leaf Trail', 2571, 'lhenriqueto@dailymotion.com', 'Senior Cost Accountant', 'Russia', 'Samara State Academy of Architecture and Civil Engineering', 'Portuguese', false, true, 187, 80);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Jonas', 'Ludewig', 45, 'Male', '82 Kensington Crossing', 63180, 'jludewigp@ow.ly', 'Account Coordinator', 'Venezuela', 'Universidad de Los Andes', 'Khmer', false, true, 210, 69);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Aleksandr', 'Spurgeon', 77, 'Male', '25830 Heath Trail', 99689, 'aspurgeonq@gnu.org', 'Web Designer IV', 'Russia', 'Far Eastern State Technical University', 'Punjabi', true, true, 181, 90);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Amalia', 'Wallett', 76, 'Female', '7676 Forster Hill', 18954, 'awallettr@theglobeandmail.com', 'Operator', 'Indonesia', 'Politeknik Negeri Sambas', 'Burmese', false, true, 189, 89);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Elihu', 'Sahnow', 38, 'Male', '58676 Arapahoe Parkway',086, 'esahnows@loc.gov', 'Systems Administrator IV', 'Brazil', 'Universidade Potiguar', 'Dhivehi', true, false, 189, 49);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Sherill', 'Odams', 48, 'Female', '5 Fremont Trail', 315, 'sodamst@parallels.com', 'Assistant Media Planner', 'Canada', 'York University', 'English', true, false, 209, 94);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Addy', 'Sidle', 46, 'Female', '97539 Elgar Trail', 77099, 'asidleu@de.vu', 'Engineer IV', 'China', 'Qinghai Radio & Television University', 'Polish', false, false, 156, 71);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Inglis', 'Latchmore', 51, 'Male', '13760 Karstens Avenue', 5696, 'ilatchmorev@hostgator.com', 'Accounting Assistant III', 'Indonesia', 'Universitas Widya Gama Malang', 'Afrikaans', false, true, 206, 66);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Winnah', 'Hune', 29, 'Female', '98 Roth Alley', 700000, 'whunew@csmonitor.com', 'Geologist I', 'Tunisia', 'Université de la Manouba', 'Croatian', true, false, 174, 78);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Lyndsey', 'Scneider', 32, 'Female', '7 7th Alley', 293738, 'lscneiderx@pen.io', 'Legal Assistant', 'Argentina', 'Universidad Nacional del Sur', 'Ndebele', true, true, 165, 85);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Erl', 'Varian', 55, 'Male', '60 Becker Junction', 30281, 'evariany@ehow.com', 'Design Engineer', 'Belarus', 'Gomel State Technical University Pavel Sukhoi', 'Amharic', true, false, 150, 83);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Shepherd', 'Malacrida', 90, 'Male', '3934 Buena Vista Drive', 31599, 'smalacridaz@quantcast.com', 'Data Coordinator', 'Russia', 'Karelian State Pedagogical University', 'Lao', true, false, 149, 100);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Gerry', 'Spiers', 56, 'Female', '092 Bunker Hill Crossing',520094, 'gspiers10@about.me', 'Accounting Assistant IV', 'China', 'Guangzhou Normal University', 'Maltese', true, false, 181, 86);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Muhammad', 'Tonbye', 71, 'Male', '2686 Pearson Drive', 98406, 'mtonbye11@vkontakte.ru', 'Legal Assistant', 'France', 'Ecole Nationale des Travaux Publics de l''Etat', 'Afrikaans', true, false, 207, 95);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Florenza', 'Trathan', 36, 'Genderfluid', '0318 Di Loreto Place',510689, 'ftrathan12@quantcast.com', 'Biostatistician II', 'Indonesia', 'Universitas Islam Sultan Agung', 'Bulgarian', false, true, 172, 84);
+insert into people (first_name, last_name, age, gender, address, phone_number, email, occupation, nationality, education, languages, is_Married, has_Children, height, weight) values ('Hewet', 'Jephcott', 85, 'Male', '16 Mitchell Plaza', 009808, 'hjephcott13@mediafire.com', 'Professor', 'China', 'Huaihua Radio and Television University', 'Czech', true, true, 173, 93);
+select * from people where id=4;
+update people set email ='Sportik@@@@@' where id=4;
+delete from people where id=1;
+
+select id from people;
+select * from people where nationality='Canada';
+select * from people where age between 25 and 35 and occupation='Engineer';
+select * from people where is_Married='true' and has_Children='true';
+select * from people where height>170;
+select * from people where weight<75;
+select avg(age) from people ;
+select COUNT(*) AS people_count from people where occupation is not null;
+select occupation, COUNT(*) AS people_count from people GROUP BY occupation;
+select * from people ORDER BY age ASC LIMIT 1;
+select *from people  where email like   '%gmail.com%';
+select *from people order by height desc;
+select count(*) from people as people_total where nationality='Germany';
+select * from people where email like '%com' and phone_number=555;
+select COUNT(*) AS people_count from people where occupation is null;
+select * from people where is_Married ='false';
+select* from people where education like '%Master%';
+select * from people where height between 160 and 170;
+select * from people where languages like '%English%' and languages like '%China%';
+select * from people where is_Married ='false' and has_Children='true';
+select *from people where weight>79 or is_Married='true';
+select * from people order by age asc, height desc;
+select DISTINCT first_name FROM people;
+select * from people where nationality like '%Usa%' or nationality like '%Canada%';
+select first_name,address from people where address like '%119%';
+select  first_name,gender,phone_number from people where phone_number=55 or phone_number=22 or phone_number=80;
+update people set occupation='Devoloper' where is_Married=false;
+update people set first_name='Murasul',last_name='Muratov',age=100,gender='Male',address='Asanov 33',phone_number=99999,email='@asanov',occupation='Santecnic',nationality='Usbek',education='King',languages='Usbekistan',is_Married=true,has_Children=true,height=187,weight=100 where id=2;
+update people set weight=weight+5 where has_Children=false;
+delete from people where occupation ='Teacher';
+delete from people where age<20;
+delete from people where address is null;
+select * from people ORDER BY height DESC LIMIT 3;
+select * from people where is_Married=false order by height asc limit 1;
+select AVG(age)from people where is_married = true;
+select  sum(weight) from people where occupation='developer';
+select * from people where email!='gmail,com';
+select * from people where age=40 and occupation='developer';
+select DISTINCT nationality FROM people;
